@@ -1,7 +1,8 @@
 /**
  * CLASS WordReverser
  *
- *  This class has the method <i>reverse()</i> which takes a sentence (one or more words) and reverses the order of those words.
+ *  This class has the method <i>reverse()</i> which takes a sentence (one or more words) and reverses the order
+ *  of those words.
  *
  */
 
