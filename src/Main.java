@@ -8,7 +8,43 @@ public class Main {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
 
-        // Local Variables to Main
+
+        /*
+        CHALLENGE #2
+         */
+        try {
+            // Local Variables to Main
+            Scanner scanner = new Scanner(System.in);                       // Instantiate a Scanner to read input from user
+            WordFinder testWordFinder = new WordFinder("1 2 3 4 5 6 7 8 9 0");  // Instantiate a WordFinder Object
+            int nThWordToFind = 0;
+
+            // Find the second to last word in the sentence and print it to the screen
+            System.out.println ("The second to last word in the sentence you provided is " +
+                    testWordFinder.findWord(testWordFinder.getSentence()) + ".");
+
+            // White Space
+            System.out.println("\n\n");
+
+            // Prompt user to enter which Nth word to find in the sentence
+            System.out.println("Please enter the number of which ordered word to find: ");
+            nThWordToFind = (scanner.nextInt());
+
+            // Special case when a wily user tries to say find the 0th (or possibly a negativeTH) word
+            if (nThWordToFind <=0) {
+                throw new ArrayIndexOutOfBoundsException("User entered a number less than 1");
+            }
+
+            System.out.println("The " + nThWordToFind + " word in the sentence is " +
+                    testWordFinder.findWord(testWordFinder.getSentence(), nThWordToFind ) + ".");
+        }
+        catch (Exception e) {
+            System.out.println("Exception thrown: "+ e.toString());
+        }
+
+
+
+
+
 
 
 
@@ -35,10 +71,8 @@ public class Main {
         // Thank the user for playing Word Reverser!
         System.out.println("\n\n" + " Thank you for playing word reverser with me!" + "\n");
 
+         *** END CODE CHALLENGE #1's CODE ***
          */
-
-
-
 
         }//END public static void main(String[] args)
 
