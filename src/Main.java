@@ -9,13 +9,15 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
 
         /*
-        CHALLENGE #3: For a given input string, return a Boolean TRUE if the string starts with a given input word.
+        CHALLENGE #3: COMPLETE WITH BONUS CHALLENGE
+
+         For a given input string, return a Boolean TRUE if the string starts with a given input word.
         So, for an input string of “hello world” and input word “hello,” the program should return TRUE.
 
         For a more advanced word searcher, create a program that returns the number of times a word appears in an
         input string. For example, given an input word “new” and an input string “I’m the new newt,”
         the program should return a value of 2.
-         */
+
 
         // Local Variables to Main
         Scanner scanner = new Scanner(System.in);           // Instantiate a Scanner to read input from user
@@ -49,7 +51,7 @@ public class Main {
             System.out.println("\n\nYour word is NOT equal to the first word of your sentence");
         }//END else
 
-        */ //END EASY CHALLENGE
+        //END EASY CHALLENGE
 
         // BONUS CHALLENGE
         // Ask for second input to be a word to find in sentence
@@ -62,7 +64,7 @@ public class Main {
                 tester2.findNumberOfTimesForWord(wordToFind) +
                 " times.");
 
-
+        */
 
 
 
