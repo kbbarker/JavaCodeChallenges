@@ -8,10 +8,25 @@ public class Main {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
 
+        /*
+        CHALLENGE #3: For a given input string, return a Boolean TRUE if the string starts with a given input word.
+        So, for an input string of “hello world” and input word “hello,” the program should return TRUE.
+
+        For a more advanced word searcher, create a program that returns the number of times a word appears in an
+        input string. For example, given an input word “new” and an input string “I’m the new newt,”
+        the program should return a value of 2.
+         */
+
+        // Local Variables to Main
+        Scanner scanner = new Scanner(System.in);           // Instantiate a Scanner to read input from user
+        String inputSentence = "";
+        String inputToCheckAsFirstWord = "";
+
+
 
         /*
-        CHALLENGE #2
-         */
+        CHALLENGE #2: COMPLETE with bonus completed
+
         try {
             // Local Variables to Main
             Scanner scanner = new Scanner(System.in);                       // Instantiate a Scanner to read input from user
@@ -40,6 +55,7 @@ public class Main {
         catch (Exception e) {
             System.out.println("Exception thrown: "+ e.toString());
         }
+    */
 
 
 
@@ -47,8 +63,7 @@ public class Main {
 
 
 
-
-        /** CHALLENGE #1: COMPLETE
+        /* CHALLENGE #1: COMPLETE
          * This challenge was to ask the user to enter a sentence and then return the sentence with the words listed
          * in the reverse order. So if the sentence was "1 2 3" the printed output to the screen would be "3 2 1"
 
