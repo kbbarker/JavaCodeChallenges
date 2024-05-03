@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71e5b392-ee01-4d92-a938-275da8ddc86b" name="Changes" comment="Challenge #3 Begins. Challenge #2 commented out.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WordDeterminer.java" afterDir="false" />
+    <list default="true" id="71e5b392-ee01-4d92-a938-275da8ddc86b" name="Changes" comment="Challenge 3 completed with BONUS challenge also completed. Challenge # 3 commented out.">
+      <change afterPath="$PROJECT_DIR$/src/AnagramChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -84,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714513431005</updated>
       <workItem from="1714513432256" duration="2714000" />
-      <workItem from="1714532692360" duration="20739000" />
+      <workItem from="1714532692360" duration="27038000" />
     </task>
     <task id="LOCAL-00001" summary="After challenge one was completed. Moved all Challenge one's code in comments.">
       <option name="closed" value="true" />
@@ -118,17 +117,62 @@
       <option name="project" value="LOCAL" />
       <updated>1714700524418</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Challenge 3 completed with BONUS challenge also completed.">
+      <option name="closed" value="true" />
+      <created>1714713622442</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714713622442</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Challenge 3 completed with BONUS challenge also completed. Challenge # 3 commented out.">
+      <option name="closed" value="true" />
+      <created>1714759287639</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714759287639</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="After challenge one was completed. Moved all Challenge one's code in comments." />
     <MESSAGE value="Challenge #2 completed and tested as working with special cases and even using a try-catch for exception handeling." />
     <MESSAGE value="Challenge #3 Begins. Challenge #2 commented out." />
-    <option name="LAST_COMMIT_MESSAGE" value="Challenge #3 Begins. Challenge #2 commented out." />
+    <MESSAGE value="Challenge 3 completed with BONUS challenge also completed." />
+    <MESSAGE value="Challenge 3 completed with BONUS challenge also completed. Challenge # 3 commented out." />
+    <option name="LAST_COMMIT_MESSAGE" value="Challenge 3 completed with BONUS challenge also completed. Challenge # 3 commented out." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AnagramChecker.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="Arrays.equals(word1CharArray,word2CharArray)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

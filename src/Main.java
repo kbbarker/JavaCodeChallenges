@@ -9,6 +9,33 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
 
         /*
+        CHALLENGE #4:
+
+        Two words are anagrams if they contain the same letters but in a different order. Here are a few examples
+        of anagram pairs:
+
+            “listen” and “silent”
+            “binary” and “brainy”
+            “Paris” and “pairs”
+
+        For a given input of two strings, return a Boolean TRUE if the two strings are anagrams.
+
+        BONUS CHALLENGE
+        As an added challenge, for a given array of strings, return separate lists that group anagrams together.
+        For example, the input {“tar,” “rat,” “art,” “meats,” “steam”}, the output should look something like
+        {[“tar,” “rat,” “art”], [“meats,” “steam”]}.
+         */
+
+        // Local variables to main
+        AnagramChecker tester = new AnagramChecker  ("rat", "art");
+
+        //
+        if (tester.areTwoWordsAnagrams())
+            System.out.println("Both words are anagrams.");
+        else
+            System.out.println("Both words are NOT anagrams.");
+
+        /*
         CHALLENGE #3: COMPLETE WITH BONUS CHALLENGE
 
          For a given input string, return a Boolean TRUE if the string starts with a given input word.
