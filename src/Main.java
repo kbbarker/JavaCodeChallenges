@@ -21,6 +21,48 @@ public class Main {
         Scanner scanner = new Scanner(System.in);           // Instantiate a Scanner to read input from user
         String inputSentence = "";
         String inputToCheckAsFirstWord = "";
+        String wordToFind = "";
+
+        // For EASY CHALLENGE
+        WordDeterminer tester1 = new WordDeterminer(inputSentence, inputToCheckAsFirstWord);
+
+        // For BONUS CHALLENGE
+        WordDeterminer tester2 = new WordDeterminer(inputSentence,wordToFind);
+        // Ask for first input to be a sentence (list of words)
+        System.out.println("Please enter a sentence: ");
+        inputSentence = scanner.nextLine();
+        tester1.setSentence(inputSentence);
+        tester2.setSentence(inputSentence);
+
+        /* EASY CHALLENGE ***
+        // Ask for second input to be a word to compare to first word
+        System.out.println("\n\nPlease enter a word to compare to first word of your sentence: ");
+        inputToCheckAsFirstWord = scanner.nextLine();
+        tester1.setWordToUseForDetermination(inputToCheckAsFirstWord);
+        // IF word equals first word print "Your word is equal to the first word of your sentence"
+        if (tester1.isFirstWordEqaualTo(inputToCheckAsFirstWord)) {
+            System.out.println("\n\nYour word is equal to the first word of your sentence");
+        }//END if
+
+        // Word is not equal so print "Your word is NOT equal to the first word of your sentence"
+        else {
+            System.out.println("\n\nYour word is NOT equal to the first word of your sentence");
+        }//END else
+
+        */ //END EASY CHALLENGE
+
+        // BONUS CHALLENGE
+        // Ask for second input to be a word to find in sentence
+        System.out.println("\n\nPlease enter a word to find in your sentence: ");
+        wordToFind = scanner.nextLine();
+        tester2.setWordToUseForDetermination(wordToFind);
+
+        // Find number of times word appears in sentence
+        System.out.println("Your word '" + wordToFind + "' was found " +
+                tester2.findNumberOfTimesForWord(wordToFind) +
+                " times.");
+
+
 
 
 
@@ -68,7 +110,7 @@ public class Main {
          * in the reverse order. So if the sentence was "1 2 3" the printed output to the screen would be "3 2 1"
 
          // Local Variables to Main
-         WordReverser tester = new WordReverser();   // Instantiate a WordReverser
+         WordReverser tester1 = new WordReverser();   // Instantiate a WordReverser
          Scanner scanner = new Scanner(System.in);   // Instantiate a Scanner to read input from user
          String sentence = null;                     // Create and initialize a variable for the sentence of words
          String reversedWord = "";                   // Create and initialize a variable for the reversed word
@@ -78,7 +120,7 @@ public class Main {
          System.out.println("\n\n");
 
         // Reverse the words provided
-        reversedWord = tester.reverse(sentence);
+        reversedWord = tester1.reverse(sentence);
 
         // Print the reversed word to the screen
         System.out.println("Your word reversed is: " + reversedWord);
