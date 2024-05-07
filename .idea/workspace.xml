@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71e5b392-ee01-4d92-a938-275da8ddc86b" name="Changes" comment="Completed CHALLENGE #4 which was to test if two words are anagrams. Next is to take an array of words and reurn array(s) of anagrams grouped together. -- This will take some thinking, but CAN BE DONE (without cheating!!!)">
+    <list default="true" id="71e5b392-ee01-4d92-a938-275da8ddc86b" name="Changes" comment="Challenge 4 BONUS completed!!! &#10;&#10;Yay!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnagramChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnagramChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +84,7 @@
       <workItem from="1714532692360" duration="47509000" />
       <workItem from="1715019604579" duration="5327000" />
       <workItem from="1715042276074" duration="66000" />
-      <workItem from="1715042358904" duration="10502000" />
+      <workItem from="1715042358904" duration="11185000" />
     </task>
     <task id="LOCAL-00001" summary="After challenge one was completed. Moved all Challenge one's code in comments.">
       <option name="closed" value="true" />
@@ -144,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714780486959</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Challenge 4 BONUS completed!!! &#10;&#10;Yay!">
+      <option name="closed" value="true" />
+      <created>1715059771445</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715059771445</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +174,8 @@
     <MESSAGE value="Challenge 3 completed with BONUS challenge also completed." />
     <MESSAGE value="Challenge 3 completed with BONUS challenge also completed. Challenge # 3 commented out." />
     <MESSAGE value="Completed CHALLENGE #4 which was to test if two words are anagrams. Next is to take an array of words and reurn array(s) of anagrams grouped together. -- This will take some thinking, but CAN BE DONE (without cheating!!!)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed CHALLENGE #4 which was to test if two words are anagrams. Next is to take an array of words and reurn array(s) of anagrams grouped together. -- This will take some thinking, but CAN BE DONE (without cheating!!!)" />
+    <MESSAGE value="Challenge 4 BONUS completed!!! &#10;&#10;Yay!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Challenge 4 BONUS completed!!! &#10;&#10;Yay!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -177,11 +184,6 @@
           <url>file://$PROJECT_DIR$/src/AnagramChecker.java</url>
           <line>133</line>
           <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="102" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
