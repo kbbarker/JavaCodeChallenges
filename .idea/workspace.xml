@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71e5b392-ee01-4d92-a938-275da8ddc86b" name="Changes" comment="Challenge 4 BONUS completed!!! &#10;&#10;Yay!">
+      <change afterPath="$PROJECT_DIR$/src/PangramsChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +86,7 @@
       <workItem from="1714532692360" duration="47509000" />
       <workItem from="1715019604579" duration="5327000" />
       <workItem from="1715042276074" duration="66000" />
-      <workItem from="1715042358904" duration="11185000" />
+      <workItem from="1715042358904" duration="15042000" />
     </task>
     <task id="LOCAL-00001" summary="After challenge one was completed. Moved all Challenge one's code in comments.">
       <option name="closed" value="true" />
@@ -150,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715059771445</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Challenge 4 BONUS completed!!! &#10;&#10;Yay!">
+      <option name="closed" value="true" />
+      <created>1715061201463</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715061201463</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,9 +191,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/AnagramChecker.java</url>
-          <line>133</line>
-          <option name="timeStamp" value="99" />
+          <url>file://$PROJECT_DIR$/src/PangramsChecker.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="103" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -193,23 +203,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="arrayListOfWords.get(i + 1)" />
-        <watch expression="arrayListOfWords.getLast()" />
-        <watch expression="arrayListOfWords.indexOf(arrayListOfWords.getLast()" />
-        <watch expression="this.areTwoWordsAnagrams()" />
-        <watch expression="arrayListOfAnagrams" />
-        <watch expression="arrayListOfWords.get(i)" />
-        <watch expression="arrayListOfWords.get(j)" />
-        <watch expression="wordAtI" />
-        <watch expression=" (word1CharArray.equals(word2CharArray)" />
-        <watch expression="        ArrayList sortedAnagrams = tester2.sortAnagrams(arrayOfWords);&#10;" />
-        <watch expression="arrayListOfWords.get(j)" />
-        <watch expression="j" />
-        <watch expression=" AnagramChecker(it.next().toString(),it.next().toString())" />
-        <watch expression="li" />
-        <watch expression="sortedAnagrams.toString()" language="JAVA" />
-        <watch expression="arrayListOfWords.size() - 1" />
-        <watch expression=" sortedAnagrams.toString(" />
+        <watch expression="checkIfPangram()" language="JAVA" />
+        <watch expression=" tester.isPangram()" />
       </configuration>
     </watches-manager>
   </component>

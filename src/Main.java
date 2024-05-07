@@ -9,8 +9,37 @@ public class Main {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
 
+         /*
+        CHALLENGE #5: PANOGRAMS
+
+        A pangram is a sentence that contains all 26 letters of the English alphabet. One of the most well-known
+        examples of a pangram is, “The quick brown fox jumps over the lazy dog.” Create a pangram checker that
+         returns a Boolean TRUE if an input string is a pangram and FALSE if it isn’t.
+
+        For an added pangram challenge, create a perfect pangram checker. A perfect pangram is a sentence that
+        uses each letter of the alphabet only once, such as, “Mr. Jock, TV quiz Ph.D., bags few lynx.”
+
+         */ // END CHALLENGE #5 Specification
+
+        String testInput = "The quick brown fox jumps over the lazy dog";
+
+        PangramsChecker tester = new PangramsChecker(testInput);
+
+        tester.checkIfPangram();
+
+        // IF the input is a Pangram, print this to the screen
+        if ( tester.isPangram() )
+            System.out.println(tester.getSentence() + " IS a pangram");
+        else
+            System.out.println(tester.getSentence() + " is NOT a pangram");
+
+
+    }//EMD public static void main(String[] args)
+
+
+
         /*
-        CHALLENGE #4:
+        CHALLENGE #4: COMBPLETE WITH BONUS COMPLETE
 
         Two words are anagrams if they contain the same letters but in a different order. Here are a few examples
         of anagram pairs:
@@ -25,7 +54,7 @@ public class Main {
         As an added challenge, for a given array of strings, return separate lists that group anagrams together.
         For example, the input {“tar,” “rat,” “art,” “meats,” “steam”}, the output should look something like
         {[“tar,” “rat,” “art”], [“meats,” “steam”]}.
-         */
+
 
         // Local variables to main
         String arrayOfWords = new String("listen,study,silent,dusty,rat,art,bart,save,hat,tar,vase");
@@ -38,13 +67,14 @@ public class Main {
             System.out.println("Both words are anagrams.");
         else
             System.out.println("Both words are NOT anagrams.");
-         */
+
 
         ArrayList sortedAnagrams = tester2.sortAnagrams(arrayOfWords);
         System.out.println(sortedAnagrams.toString());
 
         //tester2.areTwoWordsAnagrams();
 
+        */ // END CHALLENGE #4
 
         /*
         CHALLENGE #3: COMPLETE WITH BONUS CHALLENGE
@@ -171,6 +201,4 @@ public class Main {
          *** END CODE CHALLENGE #1's CODE ***
          */
 
-        }//END public static void main(String[] args)
-
-    }//END CLASS Main
+}//END CLASS Main
