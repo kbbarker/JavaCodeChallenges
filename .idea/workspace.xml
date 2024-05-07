@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71e5b392-ee01-4d92-a938-275da8ddc86b" name="Changes" comment="Challenge 3 completed with BONUS challenge also completed. Challenge # 3 commented out.">
-      <change afterPath="$PROJECT_DIR$/src/AnagramChecker.java" afterDir="false" />
+    <list default="true" id="71e5b392-ee01-4d92-a938-275da8ddc86b" name="Changes" comment="Completed CHALLENGE #4 which was to test if two words are anagrams. Next is to take an array of words and reurn array(s) of anagrams grouped together. -- This will take some thinking, but CAN BE DONE (without cheating!!!)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnagramChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnagramChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,24 +39,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "bpig",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/spongeblaine/IdeaProjects/Practice/Practice/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;bpig&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/spongeblaine/IdeaProjects/Practice/Practice/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -83,7 +83,10 @@
       <option name="presentableId" value="Default" />
       <updated>1714513431005</updated>
       <workItem from="1714513432256" duration="2714000" />
-      <workItem from="1714532692360" duration="27038000" />
+      <workItem from="1714532692360" duration="47509000" />
+      <workItem from="1715019604579" duration="5327000" />
+      <workItem from="1715042276074" duration="66000" />
+      <workItem from="1715042358904" duration="10502000" />
     </task>
     <task id="LOCAL-00001" summary="After challenge one was completed. Moved all Challenge one's code in comments.">
       <option name="closed" value="true" />
@@ -133,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714759287639</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Completed CHALLENGE #4 which was to test if two words are anagrams. Next is to take an array of words and reurn array(s) of anagrams grouped together. -- This will take some thinking, but CAN BE DONE (without cheating!!!)">
+      <option name="closed" value="true" />
+      <created>1714780486959</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714780486959</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,26 +167,55 @@
     <MESSAGE value="Challenge #3 Begins. Challenge #2 commented out." />
     <MESSAGE value="Challenge 3 completed with BONUS challenge also completed." />
     <MESSAGE value="Challenge 3 completed with BONUS challenge also completed. Challenge # 3 commented out." />
-    <option name="LAST_COMMIT_MESSAGE" value="Challenge 3 completed with BONUS challenge also completed. Challenge # 3 commented out." />
+    <MESSAGE value="Completed CHALLENGE #4 which was to test if two words are anagrams. Next is to take an array of words and reurn array(s) of anagrams grouped together. -- This will take some thinking, but CAN BE DONE (without cheating!!!)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed CHALLENGE #4 which was to test if two words are anagrams. Next is to take an array of words and reurn array(s) of anagrams grouped together. -- This will take some thinking, but CAN BE DONE (without cheating!!!)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/AnagramChecker.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="18" />
+          <line>133</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="102" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="Arrays.equals(word1CharArray,word2CharArray)" language="JAVA" />
+        <watch expression="arrayListOfWords.get(i + 1)" />
+        <watch expression="arrayListOfWords.getLast()" />
+        <watch expression="arrayListOfWords.indexOf(arrayListOfWords.getLast()" />
+        <watch expression="this.areTwoWordsAnagrams()" />
+        <watch expression="arrayListOfAnagrams" />
+        <watch expression="arrayListOfWords.get(i)" />
+        <watch expression="arrayListOfWords.get(j)" />
+        <watch expression="wordAtI" />
+        <watch expression=" (word1CharArray.equals(word2CharArray)" />
+        <watch expression="        ArrayList sortedAnagrams = tester2.sortAnagrams(arrayOfWords);&#10;" />
+        <watch expression="arrayListOfWords.get(j)" />
+        <watch expression="j" />
+        <watch expression=" AnagramChecker(it.next().toString(),it.next().toString())" />
+        <watch expression="li" />
+        <watch expression="sortedAnagrams.toString()" language="JAVA" />
+        <watch expression="arrayListOfWords.size() - 1" />
+        <watch expression=" sortedAnagrams.toString(" />
       </configuration>
     </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Practice$Main.ic" NAME="Main Coverage Results" MODIFIED="1715022805417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

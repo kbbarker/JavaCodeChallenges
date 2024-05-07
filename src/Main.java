@@ -1,5 +1,6 @@
 import java.lang.*;
-import java.util.Scanner;
+import java.sql.Array;
+import java.util.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -27,13 +28,23 @@ public class Main {
          */
 
         // Local variables to main
-        AnagramChecker tester = new AnagramChecker  ("rat", "art");
+        String arrayOfWords = new String("listen,study,silent,dusty,rat,art,bart,save,hat,tar,vase");
+        AnagramChecker tester2 = new AnagramChecker(arrayOfWords);
 
-        //
+       // AnagramChecker tester = new AnagramChecker  ("listen", "silent");
+
+        /* PART OF NON-BONUS CHALLENGE #4
         if (tester.areTwoWordsAnagrams())
             System.out.println("Both words are anagrams.");
         else
             System.out.println("Both words are NOT anagrams.");
+         */
+
+        ArrayList sortedAnagrams = tester2.sortAnagrams(arrayOfWords);
+        System.out.println(sortedAnagrams.toString());
+
+        //tester2.areTwoWordsAnagrams();
+
 
         /*
         CHALLENGE #3: COMPLETE WITH BONUS CHALLENGE
